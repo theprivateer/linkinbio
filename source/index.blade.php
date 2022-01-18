@@ -26,7 +26,4 @@
     </div>
 </div>
 
-<div class="container navigation-links">
-    {{-- @include('_partials.nav') --}}
-</div>
 @endsection

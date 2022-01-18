@@ -13,7 +13,7 @@
 
         @if($page->production)
         <!-- Fathom - beautiful, simple website analytics -->
-        <script src="https://fantastic-admire.philstephens.com/script.js" data-site="MULNTXUX" defer></script>
+        <script src="https://cdn.usefathom.com/script.js" data-site="JBHCSJHM" defer></script>
         <!-- / Fathom -->
         @endif
         @section('head')
@@ -27,7 +27,7 @@
         <div class="container mt-4 py-4">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10 small">
-                    <ul class="list-inline m-0 d-flex justify-content-between">
+                    <ul class="list-inline m-0 d-flex justify-content-center">
                         <li class="list-inline-item"><strong>&copy; {{ date('Y')}} Phil Stephens</strong></li>
                         {{-- <li class="list-inline-item">Powered by <a href="https://jigsaw.tighten.co">Jigsaw</a> and <a
                                     href="https://www.netlify.com">Netlify</a></li> --}}
