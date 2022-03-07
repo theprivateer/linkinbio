@@ -7,6 +7,7 @@
         <meta name="description" content="{{ $page->description }}">
         <link rel="shortcut icon" href="/assets/img/favicon.png?ck={{ uniqid() }}">
         <title>{{ $page->title }}</title>
+        <link rel="stylesheet" href="https://use.typekit.net/rjz3xri.css">
         <link rel="stylesheet" href="{{ mix('css/style.css', 'assets/build') }}?ck={{ uniqid() }}">
         {{-- <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script> --}}
         <link rel="alternate" type="application/rss+xml" title="{{ $page->rssTitle }}" href="{{ $page->baseUrl.'/rss.xml' }}" />
