@@ -12,11 +12,11 @@
         {{-- <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script> --}}
         <link rel="alternate" type="application/rss+xml" title="{{ $page->rssTitle }}" href="{{ $page->baseUrl.'/rss.xml' }}" />
 
-        @if($page->production)
+        {{-- @if($page->production)
         <!-- Fathom - beautiful, simple website analytics -->
         <script src="https://holiday-kind.philstephens.com/script.js" data-site="JBHCSJHM" defer></script>
         <!-- / Fathom -->
-        @endif
+        @endif --}}
         @section('head')
         @show
     </head>
